@@ -1,0 +1,18 @@
+ <nav class="navbar navbar-expand-lg">
+      <div class="container">
+          <a class="navbar-brand text-white" href="index.php"><i class="fas fa-home" style="margin-right:5px"></i> Accueil</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+              <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:white;" ></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="demandes.php"><i class="fas fa-file-alt" style="margin-right:5px"></i> Demandes</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="utilisateurs.php"><i class="fas fa-users" style="margin-right:5px"></i> Utilisateurs</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>

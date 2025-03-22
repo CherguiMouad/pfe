@@ -1,0 +1,40 @@
+/* Styles pour le menu déroulant */
+.form-select-etat {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    border: 1px solid #E67E22;
+    border-radius: 5px;
+    padding: 8px 30px 8px 10px;
+    font-size: 14px;
+    color: #343A40;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23E67E22'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+.form-select-etat:hover {
+    border-color: #D35400;
+    box-shadow: 0 0 8px rgba(230, 126, 34, 0.3);
+}
+
+.form-select-etat:focus {
+    border-color: #E67E22;
+    box-shadow: 0 0 8px rgba(230, 126, 34, 0.5);
+    outline: none;
+}
+
+.form-select-etat option {
+    background-color: #fff;
+    color: #343A40;
+    padding: 8px;
+}
+
+.form-select-etat option:hover {
+    background-color: #E67E22;
+    color: #fff;
+}
